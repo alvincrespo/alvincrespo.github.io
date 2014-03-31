@@ -1,0 +1,61 @@
+.sidebar-about h1 {
+	font-family: 'Candal', sans-serif;
+	line-height: 90%;
+}
+
+.sidebar img {
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+@media (min-width: 48rem) {
+	.sidebar img {
+		margin: 0;
+		margin-bottom: 25px;
+	}
+}
+
+.sidebar-nav-item:after {
+	content: " | ";
+}
+
+.sidebar-nav-item:last-child:after {
+	content: "";
+}
+
+.sidebar-nav-item {
+	display: inline-block;
+}
+
+#experience ul {
+	list-style: none;
+	padding: 0;
+}
+
+.year {
+	float: right;
+	font-size: 0.75rem;
+	font-weight: bold;
+	line-height: 1.50rem;
+}
+
+#skills ul {
+	list-style: none;
+}
+
+#skills li {
+	display: inline-block;
+}
+
+#skills li:after {
+	content: " | ";
+}
+
+#skills li:last-child:after {
+	content: "";
+}
+
+b {
+	display: block;
+	text-align: center;
+}
