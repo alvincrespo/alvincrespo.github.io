@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+---
+
+<section>
+  <header>
+    <h1>My thoughts...</h1>
+  </header>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
